@@ -66,10 +66,13 @@ body {
 .totm {
     display: flex;
     justify-content: center;
-    position: relative;
     width: 1000px;
     flex-wrap: wrap;
 }
 .tea p {
     padding-top: 10px;
+    margin: 0 auto;
+}
+.tea {
+    padding-top: 10px
 }
