@@ -5,6 +5,7 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    margin: 0 auto;
 }
 
 /*    HEADER     */
@@ -17,16 +18,58 @@ body {
     align-items: center;
     height: 69px;
     border-bottom: 1px solid seashell;
+    z-index: 10;
+    background: black;
 }
 .header img {
     height: 50px;
     padding-left: 10px;
 }
-.header span {
+.header span a {
     display: inline-block;
     padding-right: 16px;
     text-decoration: underline;
-}
-a {
     color: seashell;
+}
+
+/* Main Content Block */
+
+
+.content {
+    padding-top: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Mission statement */
+
+
+.mission.picture {
+    background-image: url(../images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mission {
+    background-color: black;
+}
+.pic {
+    height: 200px;
+    widows: 300px;
+    padding: 0 10px;
+}
+.totm {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.tea p {
+    padding-top: 10px;
 }
